@@ -1,7 +1,9 @@
 # probeer.me – A playful place for practical tools
 
-This repository powers [https://probeer.me](https://probeer.me),  
-a personal playground by CopyPasteHero for building tiny tools.
+“Probeer” means “try” in Dutch. 
+This site is a personal playground by CopyPasteHero — a space to try out small, practical web tools built for fun and utility.
+
+This repository powers [probeer.me](https://probeer.me).
 
 ---
 
