@@ -2,65 +2,88 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-A robust, client-side IBAN generator tool focused on simplicity, accessibility, and practical functionality.
+A fully client-side IBAN generator to create mathematically valid IBANs for multiple European countries.  
+Useful for testing, development, or impressing friends with fake bank numbers.
 
-## 🚀 Project Overview
+---
 
-A robust client-side application for generating valid IBAN numbers across multiple European countries.
+## 🚀 Try It Live
 
-**[➡️ Try it live](https://probeer.me/iban)**
+**[https://probeer.me/iban](https://probeer.me/iban)**
 
-#### Key Features
-- ✅ Generates mathematically valid IBANs for 6 European countries
-- 🏦 Bank-specific IBAN generation options
-- 📱 Responsive design with accessibility focus
-- 📋 Copy to clipboard functionality
-- 💾 Bulk generation with download option
+---
 
-[View Documentation](./iban) | [Explore Source](./iban/script.js)
+## ✅ Features
 
-## 🔧 Technical Details
+- Supports 6+ countries with country-specific IBAN formats
+- Bank selection appears when available for the selected country
+- Accessible form with client-side validation
+- Generates 1 to 100 IBANs at once
+- Copy-to-clipboard & download as `.txt`
+- Works offline (everything runs in your browser)
+- Dark mode included, because obviously
 
-This repository is built with:
-- Vanilla JavaScript with no dependencies
-- Responsive CSS with dark mode support
-- Semantic HTML with accessibility considerations
+---
 
-## 🌐 Access Options
+## 🛠️ Built With
 
-- **GitHub Pages URL**: [copypastehero.github.io/iban](https://copypastehero.github.io/iban)
-- **Custom Domain**: [probeer.me/iban](https://probeer.me/iban)
+- Vanilla JavaScript (no frameworks, no dependencies)
+- Semantic, accessible HTML
+- Custom responsive CSS with dark mode support
+- No tracking, no backend, no problem
 
-## 💻 Local Development
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/CopyPasteHero/CopyPasteHero.github.io.git
+## 📁 File Structure
 
-# Navigate to the IBAN Generator project
-cd CopyPasteHero.github.io/iban
-
-# Open index.html in your browser
+```txt
+index.html      → Main UI and layout
+script.js       → Logic for generation, validation and UI interaction
+style.css       → Responsive styles, theme and accessibility
+sitemap.xml     → For SEO (because why not)
+LICENSE         → MIT License
+README.md       → You're reading it
 ```
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! To contribute:
+## 📦 Repo Structure
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m ‘Add an amazing feature’`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- **/iban/** → IBAN Generator tool (self-contained)  
+- **/index.html** → Redirects to /iban  
+- **/CNAME** → Custom domain config (probeer.me)  
+- **/404.html** → Fallback page  
+- **/robots.txt** → SEO basics  
 
-## 📄 License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+## 🌍 **Live Access**
 
-## 📬 Contact
+**https://probeer.me**  
+**https://probeer.me/iban**  
 
-GitHub: [@CopyPasteHero](https://github.com/CopyPasteHero)
+---
 
-—
+## 🧪 **Local Setup**
 
-*Note: All tools on this site are provided for testing and educational purposes only.*
+```bash
+git clone https://github.com/CopyPasteHero/IBAN-Generator.git
+cd IBAN-Generator/iban
+open index.html
+```
+
+Or use a local web server for slightly more street cred.
+
+---
+
+## 🤖 **Built with AI & Chaos**
+
+Parts of this tool were crafted by an AI assistant.  
+The rest was stitched together by CopyPasteHero using caffeine and `console.log()`.
+
+---
+
+## 🤝 **Contributions**
+
+Suggestions and improvements welcome!  
+Open an issue, fork, or send a PR — even if you’re just fixing a typo.
