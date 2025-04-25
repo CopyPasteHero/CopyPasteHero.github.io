@@ -9,7 +9,7 @@ This repository powers [probeer.me](https://probeer.me).
 
 ## 🛠️ Current Tool
 
-### **IBAN Generator**
+## 🔢 IBAN Generator
 A simple and accessible client-side tool to generate valid IBANs.
 
 - **Live demo**: [https://probeer.me/iban](https://probeer.me/iban)
